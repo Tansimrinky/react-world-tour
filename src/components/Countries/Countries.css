@@ -1,0 +1,19 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.btn{
+    color: White;
+    background-color:rgb(226, 95, 51);
+    border:none;
+}
+.btn:hover{
+    border: none;
+}
+.flag-container img{
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+}
